@@ -14,12 +14,12 @@ pipeline {
         }
         stage('Jenkins') {
             steps {
-                echo 'Hello Jenkins'
+                echo 'Hello Jenkins1'
             }
         }
         stage('Job') {
             steps {
-                echo 'Hello Job'
+                echo 'Hello Job1'
             }
         }
     }
